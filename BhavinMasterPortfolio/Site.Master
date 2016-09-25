@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="BhavinMasterPortfolio.Site" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <!-- css section -->
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="StyleSheet.css" rel="stylesheet" />
+</head>
+<body >
+    <form id="form1" runat="server">
+        <header role="navigation">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" rel="home" href="#" ><img style="max-width:40px; margin-top: -7px;"
+             src="Assets/Images/logo.png"></a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li id="home" runat="server"><a href="Default.aspx"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                            <li id="bio" runat="server"><a href="Bio.aspx"><i class="fa fa-meh-o fa-lg"></i> About Me</a></li>
+                            <li id="project" runat="server"><a href="Projects.aspx"><i class="fa fa-pencil fa-lg"></i> Projects</a></li>
+                            <li id="services" runat="server"><a href="Services.aspx"><i class="fa fa-tasks fa-lg"></i> Services</a></li>
+                            <li id="contactMe" runat="server"><a href="ContectMe.aspx"><i class="fa fa-phone fa-lg"></i> Contact Me</a></li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </header>
+
+        <!--main content-->
+
+        <div role="main">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            
+        </asp:ContentPlaceHolder>
+            </div>
+      
+        <!-- footer-->
+
+        <footer role="contentinfo">
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container">
+                <h4>&copy; 2016 - Bhavin Master</h4>
+            </div>
+        </nav>
+        </footer>
+    </form>
+    <!-- JavaScript Section-->
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/jquery-2.2.4.min.js"></script>
+    <script src="Scripts/app.js"></script>
+</body>
+</html>
