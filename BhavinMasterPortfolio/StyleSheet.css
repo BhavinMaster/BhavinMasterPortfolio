@@ -19,3 +19,18 @@
 .table-borderless tbody tr td{
     border: none;
 }
+.colrocs{
+    background: rgb(200, 54, 54); /* This is for ie8 and below */
+   background: rgb(255, 216, 0)
+}
+
+.textstyle{
+    font-family:Rockwell Extra Bold;
+    font-style: italic;
+
+}
+.textstyle2{
+    font-size: large;
+    font-family:'Goudy Stout';
+
+}

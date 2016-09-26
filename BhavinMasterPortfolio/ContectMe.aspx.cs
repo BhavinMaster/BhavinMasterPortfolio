@@ -16,15 +16,16 @@ namespace BhavinMasterPortfolio
         }
 
         protected void send_Detail(object sender, EventArgs e)
-        {
-
-            
+        { 
             System.Net.Mail.MailMessage mail = new System.Net.Mail.MailMessage();
             mail.To.Add("bhavinmaster111@gmail.com");
-            mail.From = new MailAddress("tonyportfolio229@gmail.com", "Email head", System.Text.Encoding.UTF8);
-            mail.Subject = "This mail is send from asp.net application";
+            mail.From = new MailAddress("tonyportfolio229@gmail.com", "PortFolio", System.Text.Encoding.UTF8);
+            mail.Subject = "Mail From Your PortFolio";
             mail.SubjectEncoding = System.Text.Encoding.UTF8;
-            mail.Body = "First Nam : " + FirstNameTextBox.Text;
+            mail.Body = "First Name : " + FirstNameTextBox.Text + "<br />" +
+                "Last Name : " + LastNameTextBox.Text + "<br />" + 
+                "Email Id : " + Email.Text + "<br />" +
+                "Contact Number : " + Contact.Text;
             mail.BodyEncoding = System.Text.Encoding.UTF8;
             mail.IsBodyHtml = true;
             mail.Priority = MailPriority.High;
@@ -36,7 +37,11 @@ namespace BhavinMasterPortfolio
             try
             {
                 client.Send(mail);
-                
+                ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Email Sent Successfully')", true);
+                FirstNameTextBox.Text = String.Empty;
+                LastNameTextBox.Text = String.Empty;
+                Email.Text = String.Empty;
+                Contact.Text = String.Empty;
             }
             catch (Exception ex)
             {
