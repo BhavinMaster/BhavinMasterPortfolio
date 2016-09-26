@@ -7,7 +7,7 @@
                 <h1 style="color: #ffffff">Projects</h1>
             </div>
         </div>
-        <div class="jumbotron">
+        <div class="jumbotron jumbotron-special2">
             <div class="colrocs">
                 <div class="row">
                     <div class="col-md-offset-3 col-md-6">
@@ -18,7 +18,7 @@
                 </div>
             </div>
         </div>
-        <div class="jumbotron">
+        <div class="jumbotron jumbotron-special2">
             <div class="colrocs">
                 <div class="row">
                     <div class="col-md-offset-3 col-md-6">
@@ -29,7 +29,7 @@
                 </div>
             </div>
         </div>
-        <div class="jumbotron">
+        <div class="jumbotron jumbotron-special2">
             <div class="colrocs">
                 <div class="row">
                     <div class="col-md-offset-3 col-md-6">

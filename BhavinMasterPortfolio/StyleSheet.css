@@ -13,7 +13,7 @@
 .jumbotron {
    background: rgb(200, 54, 54); /* This is for ie8 and below */
    background: rgba(200, 54, 54, 0.5); 
-    display: inline-block;
+    
     border: solid #000000 1px;
 }
 .table-borderless tbody tr td{
@@ -37,4 +37,25 @@
 .textstyle3{
     font-size:large;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.facebookLogoDiv{
+    height:40px;
+    width:40px;
+    display:inline-block;
+}
+.linkdinLogoDiv{
+    height:40px;
+    width:40px;
+    display:inline-block;
+    margin-left:15px;
+}
+
+.jumbotron-special {
+   background: rgb(200, 54, 54); /* This is for ie8 and below */
+   background: rgba(128, 128, 128,0.8); 
+    border: solid #000000 1px;
+    }
+.jumbotron-special2{
+    display: inline-block;
 }

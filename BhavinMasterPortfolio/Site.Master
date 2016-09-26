@@ -56,13 +56,13 @@
       
         <!-- footer-->
 
-        <footer role="contentinfo">
+        <!--<footer role="contentinfo">
         <nav class="navbar navbar-default navbar-fixed-bottom">
             <div class="container">
                 <h4>&copy; 2016 - Bhavin Master</h4>
             </div>
         </nav>
-        </footer>
+        </footer>-->
     </form>
     <!-- JavaScript Section-->
     <script src="Scripts/bootstrap.min.js"></script>

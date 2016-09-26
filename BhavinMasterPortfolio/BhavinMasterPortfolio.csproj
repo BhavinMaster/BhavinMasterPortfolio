@@ -69,6 +69,8 @@
     <Content Include="Assets\Images\architect.png" />
     <Content Include="Assets\Images\Background.jpg" />
     <Content Include="Assets\Images\Bhavin_background.jpg" />
+    <Content Include="Assets\Images\fb.jpg" />
+    <Content Include="Assets\Images\linkedin.jpg" />
     <Content Include="Assets\Images\Logo.png" />
     <Content Include="Assets\Images\logo2.png" />
     <Content Include="Assets\Images\logo3.png" />
