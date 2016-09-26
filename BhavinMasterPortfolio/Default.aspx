@@ -4,7 +4,9 @@
         <div class ="jumbotron">
         <div class="row">
             <div class="col-md-offset-2 col-md-4">
+                <div class =" textstyle">
                 <h1 style="color:#00ff21">Bhavin Master!</h1>
+                </div>
                 <h3 style="color:#ffffff">Student Of Centennial College</h3>
                 <h3 style="color:#ffffff">Pursuing Software Engineering</h3>
             </div>
