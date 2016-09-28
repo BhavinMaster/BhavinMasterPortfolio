@@ -2,9 +2,9 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-        </div>
+        
         <div class="table-responsive">
             <table class="table table table-borderless">
                 <tbody>
@@ -45,5 +45,6 @@ I add personal touch to your product and make sure that is eye-catching and easy
                 </tbody>
             </table>
         </div>
+            </div>
     </div>
 </asp:Content>

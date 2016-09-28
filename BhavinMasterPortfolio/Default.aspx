@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="Home" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="BhavinMasterPortfolio.Default" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="container" >
+    <div class="container-fluid" >
         <div class ="jumbotron jumbotron-special2 ">
         <div class="row">
             <div class="col-md-offset-2 col-md-4">

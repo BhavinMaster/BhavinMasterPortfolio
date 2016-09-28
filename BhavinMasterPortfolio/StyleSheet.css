@@ -13,8 +13,15 @@
 .jumbotron {
    background: rgb(200, 54, 54); /* This is for ie8 and below */
    background: rgba(200, 54, 54, 0.5); 
-    
     border: solid #000000 1px;
+}
+.jumbotron-special {
+   background: rgb(200, 54, 54); /* This is for ie8 and below */
+   background: rgba(128, 128, 128,0.8); 
+    border: solid #000000 1px;
+    }
+.jumbotron-special2{
+    display: inline-block;
 }
 .table-borderless tbody tr td{
     border: none;
@@ -51,11 +58,8 @@
     margin-left:15px;
 }
 
-.jumbotron-special {
-   background: rgb(200, 54, 54); /* This is for ie8 and below */
-   background: rgba(128, 128, 128,0.8); 
-    border: solid #000000 1px;
-    }
-.jumbotron-special2{
-    display: inline-block;
+
+.test {
+   height: 295px;
+   background-size: auto;
 }

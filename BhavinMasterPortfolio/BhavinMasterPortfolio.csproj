@@ -66,15 +66,17 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Images\Androidd.png" />
     <Content Include="Assets\Images\architect.png" />
     <Content Include="Assets\Images\Background.jpg" />
     <Content Include="Assets\Images\Bhavin_background.jpg" />
+    <Content Include="Assets\Images\bn.jpg" />
     <Content Include="Assets\Images\fb.jpg" />
+    <Content Include="Assets\Images\insta.png" />
     <Content Include="Assets\Images\linkedin.jpg" />
     <Content Include="Assets\Images\Logo.png" />
-    <Content Include="Assets\Images\logo2.png" />
-    <Content Include="Assets\Images\logo3.png" />
     <Content Include="Assets\Images\resume.png" />
+    <Content Include="Assets\Images\Services-banner.jpg" />
     <Content Include="Assets\Images\Tic-Tac-Toe-Game.png" />
     <Content Include="Assets\Images\wall.jpg" />
     <Content Include="packages.config" />

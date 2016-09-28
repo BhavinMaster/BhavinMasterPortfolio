@@ -13,7 +13,7 @@
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
     <link href="StyleSheet.css" rel="stylesheet" />
 </head>
-<body >
+<body>
     <form id="form1" runat="server">
         <header role="navigation">
             <nav class="navbar navbar-default">
@@ -26,8 +26,9 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" rel="home" href="#" ><img style="max-width:40px; margin-top: -7px;"
-             src="Assets/Images/logo.png"></a>
+                        <a class="navbar-brand" rel="home" href="default.aspx">
+                            <img style="max-width: 40px; margin-top: -7px;"
+                                src="Assets/Images/logo.png"></a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -37,7 +38,7 @@
                             <li id="bio" runat="server"><a href="Bio.aspx"><i class="fa fa-meh-o fa-lg"></i> About Me</a></li>
                             <li id="project" runat="server"><a href="Projects.aspx"><i class="fa fa-pencil fa-lg"></i> Projects</a></li>
                             <li id="services" runat="server"><a href="Services.aspx"><i class="fa fa-tasks fa-lg"></i> Services</a></li>
-                            <li id="contactMe" runat="server"><a href="ContectMe.aspx"><i class="fa fa-phone fa-lg"></i> Contact Me</a></li>
+                            <li id="contactMe" runat="server"><a href="ContectMe.aspx"><i class="fa fa-phone fa-lg"></i>Contact Me</a></li>
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->
@@ -49,11 +50,10 @@
         <!--main content-->
 
         <div role="main">
-        <asp:ContentPlaceHolder ID="MainContent" runat="server">
-            
-        </asp:ContentPlaceHolder>
-            </div>
-      
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
         <!-- footer-->
 
         <!--<footer role="contentinfo">
