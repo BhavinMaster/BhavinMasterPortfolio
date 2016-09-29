@@ -22,7 +22,7 @@
             <div class="colrocs">
                 <div class="row">
                     <div class="col-md-offset-3 col-md-6">
-                        <h2 style="color: #ffffff"><a href="https://github.com/BhavinMaster/Bhavin_Architect_website">
+                        <h2 style="color: #ffffff"><a href="http://architectwebsite.azurewebsites.net/index.html">
                             <img src="Assets/Images/architect.png" width="100" height="100" /></a>
                             Architect Website!</h2>
                     </div>
