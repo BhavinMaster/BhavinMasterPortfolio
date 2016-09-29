@@ -34,11 +34,11 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                            <li id="home" runat="server"><a href="Default.aspx"><i class="fa fa-home fa-lg"></i> Home</a></li>
-                            <li id="bio" runat="server"><a href="Bio.aspx"><i class="fa fa-meh-o fa-lg"></i> About Me</a></li>
-                            <li id="project" runat="server"><a href="Projects.aspx"><i class="fa fa-pencil fa-lg"></i> Projects</a></li>
-                            <li id="services" runat="server"><a href="Services.aspx"><i class="fa fa-tasks fa-lg"></i> Services</a></li>
-                            <li id="contactMe" runat="server"><a href="ContectMe.aspx"><i class="fa fa-phone fa-lg"></i>Contact Me</a></li>
+                            <li id="home" runat="server"><a href="Default.aspx"><i class="fa fa-home fa-lg"  aria-hidden="true"></i> Home</a></li>
+                            <li id="bio" runat="server"><a href="Bio.aspx"><i class="fa fa-meh-o fa-lg"  aria-hidden="true"></i> About Me</a></li>
+                            <li id="project" runat="server"><a href="Projects.aspx"><i class="fa fa-pencil fa-lg"  aria-hidden="true"></i> Projects</a></li>
+                            <li id="services" runat="server"><a href="Services.aspx"><i class="fa fa-tasks fa-lg"  aria-hidden="true"></i> Services</a></li>
+                            <li id="contactMe" runat="server"><a href="ContectMe.aspx"><i class="fa fa-phone fa-lg"  aria-hidden="true"></i>Contact Me</a></li>
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->
@@ -65,8 +65,8 @@
         </footer>-->
     </form>
     <!-- JavaScript Section-->
+     <script src="Scripts/jquery-2.2.4.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
-    <script src="Scripts/jquery-2.2.4.min.js"></script>
     <script src="Scripts/app.js"></script>
 </body>
 </html>

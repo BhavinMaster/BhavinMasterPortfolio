@@ -2,40 +2,44 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container-fluid">
+
         <div class="row">
-            <div class="jumbotron" style="background-image: url(Assets/Images/Services-banner.jpg); background-size: 100% 100%">
+            <div class="jumbotron jumbotron-special jumbotron-special2">
+                <div class="col-md-3">
+                    <img src="Assets/Images/Androidd.png" width="150" height="150" />
+                </div>
+
+                <div class="col-md-8">
+                    <div class="text-info">
+                        <div class="jumbotron jumbotron-special3">
+                            <p>
+                                Android is the operating system for the vast majority of smartphones used globally. 
+              Naturally enough, the mobile presence of a business must begin with an Android app to its name. 
+              Today Android app development is the battleground for the majority of app developers and businesses just because of the huge audience this platform caters to. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                </div>
+    <div class="jumbotron jumbotron-special jumbotron-special2">
+        <div class="row">
+            <div class="col-lg-3">
+                <img src="Assets/Images/Java.png" width="200" height="200" />
+            </div>
+            <div class="col-md-8">
+                    <div class="text-info">
+                        <div class="jumbotron jumbotron-special3">
+                            <p>Java allows you to play online games, 
+                        chat with people around the world,
+                         calculate your mortgage interest, and view images in 3D, just to name a few. 
+                        It's also integral to the intranet applications and other e-business 
+                        solutions that are the foundation of corporate computing</p>
+                            </div>
+                        </div>
             </div>
         </div>
-        <div class="jumbotron jumbotron-special jumbotron-special2">
-            <div class="row">
-                <div class="col-lg-3">
-                    <img src="Assets/Images/Androidd.png" width="200" height="200" />
-                </div>
-                <div class="col-lg-8">
-                    <h3>Android is the operating system for the vast majority of smartphones used globally. 
-              Naturally enough, the mobile presence of a business must begin with an Android app to its name. 
-              Today Android app development is the battleground for the majority of app developers and businesses just because of the huge audience this platform caters to. 
-              As a platform Users, Android offers unmatched ease of use, highly intuitive interface and robust accessibility to make users get hold of anything they need. 
-              Android is known for its simplicity, higher traction and robust scope of customization.</h3>
-                </div>
-             </div>
-                <h2 style="color:aqua"><i><u> I offer a broad array of Android app development services and support.</u></i></h2>
-         </div>
-        <div class="jumbotron jumbotron-special jumbotron-special2">
-            <div class="row">
-                <div class="col-lg-3">
-                    <img src="Assets/Images/Androidd.png" width="200" height="200" />
-                </div>
-                <div class="col-lg-8">
-                    <h3>Android is the operating system for the vast majority of smartphones used globally. 
-              Naturally enough, the mobile presence of a business must begin with an Android app to its name. 
-              Today Android app development is the battleground for the majority of app developers and businesses just because of the huge audience this platform caters to. 
-              As a platform Users, Android offers unmatched ease of use, highly intuitive interface and robust accessibility to make users get hold of anything they need. 
-              Android is known for its simplicity, higher traction and robust scope of customization.</h3>
-                </div>
-             </div>
-                <h2 style="color:aqua"><i><u> I offer a broad array of Android app development services and support.</u></i></h2>
-         </div>
-      </div>
+    </div>
+    </div>
 
 </asp:Content>
