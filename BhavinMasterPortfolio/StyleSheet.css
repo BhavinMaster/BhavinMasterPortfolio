@@ -1,13 +1,19 @@
 ﻿body {
     padding-bottom: 70px;
     background-image: url(Assets/Images/Background.jpg);    
-    background-size:100%;
+    background-size:cover;
+    background-attachment:fixed;
     background-repeat: no-repeat;
     position:relative;             
     width: 85%;            
     height: 610px;       
     margin-left: auto;      
-    margin-right: auto;  
+    margin-right: auto;
+
+}
+
+p{
+    color:white;
 }
 
 .jumbotron-special {
