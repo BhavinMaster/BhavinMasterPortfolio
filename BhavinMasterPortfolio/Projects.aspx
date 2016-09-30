@@ -1,6 +1,12 @@
 ﻿<%@ Page Title="Projects" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Projects.aspx.cs" Inherits="BhavinMasterPortfolio.Projects" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <!--Subject : Web Application
+        Name: Bhavin Master
+        Student No: 300861065
+        Assignment 1
+        File Name : Projects.aspx
+        This is the projects page that include projects done by me-->
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-offset-4 col-md-6">

@@ -1,6 +1,12 @@
 ﻿<%@ Page Title="ContactMe" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ContectMe.aspx.cs" Inherits="BhavinMasterPortfolio.ContectMe" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <!--Subject : Web Application
+        Name: Bhavin Master
+        Student No: 300861065
+        Assignment 1
+        File Name : ContectMe.aspx
+        This is the Contact page use to contact me through email,facebook,instagram and linkdin-->
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-offset-4 col-md-6">

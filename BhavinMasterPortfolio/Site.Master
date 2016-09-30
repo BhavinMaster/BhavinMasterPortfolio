@@ -1,6 +1,12 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="BhavinMasterPortfolio.Site" %>
 
 <!DOCTYPE html>
+  <!--Subject : Web Application
+        Name: Bhavin Master
+        Student No: 300861065
+        Assignment 1
+        File Name : Site.Master
+        This is main page that includes all web pages of my application. it also includes navigations-->
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />

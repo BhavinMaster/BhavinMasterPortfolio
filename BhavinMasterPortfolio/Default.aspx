@@ -1,6 +1,13 @@
 ﻿<%@ Page Title="Home" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="BhavinMasterPortfolio.Default" %>
-<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="container-fluid" >
+
+    <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <!--Subject : Web Application
+        Name: Bhavin Master
+        Student No: 300861065
+        Assignment 1
+        File Name : Default.aspx
+        This is the home page-->
+        <div class="container-fluid" >
         <div class="col-md-pull-8">
         <div class ="jumbotron jumbotron-special3 jumbotron-special2 ">
         <div class="row">

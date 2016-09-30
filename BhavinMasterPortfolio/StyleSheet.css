@@ -1,4 +1,13 @@
-﻿body {
+﻿/*Subject : Web Application
+        Name: Bhavin Master
+        Student No: 300861065
+        Assignment 1
+        File Name : StyleSheet.css
+        This file include cascading style sheet for project.*/
+
+
+
+body {
     padding-bottom: 70px;
     background-image: url(Assets/Images/Background.jpg);    
     background-size:cover;
